@@ -1,0 +1,129 @@
+.footer {
+  padding: 60px 0;
+  background-color: #2F303A;
+
+  h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $white-color;
+  }
+
+  .footer-logo-address {
+    margin-bottom: 60px;
+    text-align: center;
+
+    .footer-address {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: $white-color;
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+      display: block;
+    }
+
+    .footer-logo__link {
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 154px;
+    }
+  }
+
+  .footer-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+    li {
+      margin-right: 10px;
+      width: 44px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background: $blue-color;
+      }
+
+      a {
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+        position: relative;
+
+        &:before {
+          font-size: 20px;
+          color: $white-color;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+
+  .footer-form {
+    .form-control {
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      text-indent: 15px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 20px;
+    }
+
+    .footer-form-button {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: $white-color;
+      padding: 10px 64px 10px 30px;
+      width: 200px;
+      margin: 0 auto;
+      display: block;
+      position: relative;
+      background: $blue-color;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+
+      &:before {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+      }
+    }
+  }
+}

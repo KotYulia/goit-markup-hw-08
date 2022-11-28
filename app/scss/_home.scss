@@ -1,0 +1,148 @@
+.intro {
+  padding: 118px 0;
+  box-shadow: inset 0 0 0 2000px rgba(47, 48, 58, 0.4);
+  background-image: url(../images/intro-bg-mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 auto 30px;
+    color: $white-color;
+    max-width: 360px;
+  }
+
+  .intro-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 20px;
+    background-color: $blue-color;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    color: $white-color;
+  }
+}
+
+.advantages,
+.portfolio,
+.team,
+.customers {
+  padding: 60px 0;
+}
+
+.advantages .advantages-list-item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .advantages-list-item-image {
+    background-color: $light-lilac-color;
+    padding: 25px 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $dark-grey-color;
+    margin: 0 0 10px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+}
+
+.team {
+  background-color: $light-lilac-color;
+
+  .team-item {
+    background-color: $white-color;
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      margin-bottom: 10px;
+      color: $dark-grey-color;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      margin-bottom: 30px;
+    }
+
+    .team-item-social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &>li {
+        margin-right: 30px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          color: #AFB1B8;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &>li {
+    padding: 20px 0;
+    width: calc(50% - 15px);
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
